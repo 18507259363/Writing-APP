@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.archives.museum.HomeFragment"
+        android:label="首页"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/findFragment"
+        android:name="com.archives.museum.FindFragment"
+        android:label="精选"
+        tools:layout="@layout/fragment_find" />
+    <fragment
+        android:id="@+id/igwFragment"
+        android:name="com.archives.museum.IgwFragment"
+        android:label="创作"
+        tools:layout="@layout/fragment_igw" />
+    <fragment
+        android:id="@+id/meFragment2"
+        android:name="com.archives.museum.MeFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_me" />
+</navigation>
