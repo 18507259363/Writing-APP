@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">文案馆</string>
+    <string name="welcome">「慢慢来吧，总有一场相遇是互相喜欢，互相欣赏，共同成长，是隔着茫茫人海带着温柔奔赴过来的」</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_me_info">Me_Info</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
