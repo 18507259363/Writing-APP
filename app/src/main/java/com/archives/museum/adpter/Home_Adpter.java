@@ -33,7 +33,7 @@ public class Home_Adpter extends RecyclerView.Adapter<Home_Adpter.ViewPagerViewH
 
     @Override
     public int getItemCount() {
-        Http.get("https://londer", new Callback() {
+        Http.get("http://localhost", new Callback() {
             @Override
             public void onFailure(@NonNull Call call, @NonNull IOException e) {
 
