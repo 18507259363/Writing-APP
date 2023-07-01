@@ -42,6 +42,7 @@ public class Home_Adpter extends RecyclerView.Adapter<Home_Adpter.ViewPagerViewH
             @Override
             public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
                 String res=response.body().toString();
+
             }
         });
         return 3;
