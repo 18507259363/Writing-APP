@@ -30,8 +30,6 @@ public class LoginActivity extends AppCompatActivity {
 
     private static String APP_ID="102039461";
     private Tencent mTencent;
-    String nickname;
-    String figureurl_qq_2;
     String token;//token
     String expires_id;//有效期
     String uniqueCode;//唯一码
@@ -62,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
                 public void onComplete(Object o) {
                     String name=((JSONObject)o).optString("nickname");
                     String uimg=((JSONObject)o).optString("figureurl_qq_2");
-                    udata("wxid_yvf2gt1lgl7522",name,uimg);
+                    udata("uid_123456",name,uimg);
                     initv();
                 }
 
@@ -116,6 +114,15 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(this,"请先同意下方隐私政策",Toast.LENGTH_SHORT).show();
         }
 
+    }
+    public void WXonLoginClick(View view){
+        Toast.makeText(this, "暂未开通，请用QQ的登录", Toast.LENGTH_SHORT).show();
+    }
+    public void PHonLoginClick(View view){
+        Toast.makeText(this, "暂未开通，请用QQ的登录", Toast.LENGTH_SHORT).show();
+    }
+    public void AlionLoginClick(View view){
+        Toast.makeText(this, "暂未开通，请用QQ的登录", Toast.LENGTH_SHORT).show();
     }
     public void protocol(View view){
         checkBox=findViewById(R.id.checkBox);

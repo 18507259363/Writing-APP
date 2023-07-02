@@ -47,6 +47,9 @@ public class Home_Adpter extends RecyclerView.Adapter<Home_Adpter.ViewPagerViewH
         });
         return 3;
     }
+
+
+
     class ViewPagerViewHoder extends RecyclerView.ViewHolder{
         TextView word,date,day,writer;
         ConstraintLayout constraintLayout;

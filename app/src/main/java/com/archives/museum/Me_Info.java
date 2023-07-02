@@ -34,7 +34,6 @@ public class Me_Info extends AppCompatActivity {
         setContentView(R.layout.activity_meinfo);
         QMUIStatusBarHelper.translucent(this);
         QMUIStatusBarHelper.setStatusBarLightMode(this);
-
         iniv();
     }
 

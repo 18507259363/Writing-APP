@@ -100,6 +100,7 @@
                     tools:ignore="MissingConstraints,NewApi" />
 
                 <Button
+                    android:onClick="PHonLoginClick"
                     android:id="@+id/button2"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
@@ -229,6 +230,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent">
                     <Button
+                        android:onClick="WXonLoginClick"
                         android:id="@+id/button_wx"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
@@ -253,6 +255,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent">
                     <Button
+                        android:onClick="AlionLoginClick"
                         android:id="@+id/button_zfb"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
