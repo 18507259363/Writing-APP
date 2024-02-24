@@ -10,12 +10,4 @@
 
 仅用于本地测试，暂未与服务器通信
 
-#### 效果图
-![image](https://gitee.com/cloud-hair-band/Writing-APP/raw/master/image/1.jpg)
-![image](https://gitee.com/cloud-hair-band/Writing-APP/raw/master/image/2.jpg)
-![image](https://gitee.com/cloud-hair-band/Writing-APP/raw/master/image/3.jpg)
-![image](https://gitee.com/cloud-hair-band/Writing-APP/raw/master/image/4.jpg)
-![image](https://gitee.com/cloud-hair-band/Writing-APP/raw/master/image/5.jpg)
-![image](https://gitee.com/cloud-hair-band/Writing-APP/raw/master/image/6.jpg)
-
 
